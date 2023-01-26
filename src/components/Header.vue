@@ -1,29 +1,33 @@
+<script>
+export default {
+  name: "Header"
+}
+</script>
+
 <template>
   <header class="header">
     <div class="container">
-      <ul class="gnb-list">
-        <li class="gnb-list__item">HOME</li>
-        <li class="gnb-list__item">INTRO</li>
-        <li class="gnb-list__item">PROJECT</li>
-        <li class="gnb-list__item">CONTACT</li>
-      </ul>
+      <nav class="gnb-list">
+        <router-link to="/">HOME</router-link>
+        <router-link to="/About">ABOUT</router-link>
+      </nav>
     </div>
   </header>
 </template>
 
 <style lang="scss">
-  .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 
-    .gnb-list {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      gap: 40px;
-    }
+  .gnb-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
   }
+}
 </style>

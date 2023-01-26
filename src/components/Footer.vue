@@ -1,3 +1,11 @@
-<footer>
-  Footer
-</footer>
+<script>
+  export default {
+    name: "Footer"
+  }
+</script>
+
+<template>
+  <footer>
+    Footer
+  </footer>
+</template>

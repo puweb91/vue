@@ -1,12 +1,13 @@
-<script setup>
-// Components
-import Header from '@/components/Header.vue'
+<script>
+
 </script>
 
 <template>
   <Header />
 
-  <main></main>
+  <router-view></router-view>
+
+  <Footer />
 </template>
 
 <style lang="scss">

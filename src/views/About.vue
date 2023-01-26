@@ -1,13 +1,15 @@
-<template>
-  <div>
+<script>
+  export default {
+    name: "AboutUs"
+  }
+</script>
 
+<template>
+  <div class="about">
+    ABOUT
   </div>
 </template>
 
-<script setup>
-
-</script>
-
-<style lang="scss" scoped>
+<style lang="scss">
 
 </style>
